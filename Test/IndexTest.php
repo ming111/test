@@ -29,9 +29,9 @@ class IndexTest extends PHPUnit_Framework_TestCase
     public function additionProviderIndex()
     {
         return array(
-            array(1,1),
+            //array(1,1),
             array(2,8),
-            array(3,5),
+            //array(3,5),
             array(8,8)
         );
     }
