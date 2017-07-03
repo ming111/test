@@ -3,10 +3,14 @@ namespace Index;
 
 class Index
 {
-    public function index()
+    public function index($a,$b)
     {
         echo 'index';
-        return true;
+        if($a+$b >= 10){
+            return true;
+        }else{
+            return false;
+        }
     }
 
     public function test()
