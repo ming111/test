@@ -1,5 +1,8 @@
 <?php
-require_once '../Index.php';
+require  __dir__.'/../vendor/autoload.php';
+use \Index\Index;
+use \PHPUnit\Framework\TestCase;
+
 class IndexTest extends PHPUnit_Framework_TestCase
 {
     public function setUp()

@@ -1,4 +1,6 @@
 <?php
+namespace Index;
+
 class Index
 {
     public function index()
