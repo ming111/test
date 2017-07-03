@@ -28,11 +28,11 @@ class IndexTest extends PHPUnit_Framework_TestCase
     //数据供给器
     public function additionProviderIndex()
     {
-        return [
-            [1,1],
-            [2,8],
-            [3,5],
-            [8,8]
-        ];
+        return array(
+            array(1,1),
+            array(2,8),
+            array(3,5),
+            array(8,8)
+        );
     }
 }
