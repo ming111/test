@@ -15,7 +15,7 @@ class IndexTest extends PHPUnit_Framework_TestCase
     {
         $index = new Index();
         $result = $index->index($a,$b);
-        $this->assertSame(true,$result);
+        $this->assertSame(false,$result);
     }
 
     public function testTest()
